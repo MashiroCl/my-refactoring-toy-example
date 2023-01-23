@@ -10,7 +10,5 @@ public class WhiteRabbit extends Animal{
 
 
 
-    public void drink(){
-        System.out.println("Drinking");
-    }
+
 }
