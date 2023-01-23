@@ -8,9 +8,7 @@ public class WhiteRabbit extends Animal{
     private String name = "Rabbit";
     private String sound = "RabiRabi";
 
-    public void eat(){
-        System.out.println("Eating");
-    }
+
 
     public void drink(){
         System.out.println("Drinking");
