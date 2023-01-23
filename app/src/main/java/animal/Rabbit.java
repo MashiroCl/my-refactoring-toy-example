@@ -11,4 +11,8 @@ public class Rabbit extends Animal{
     public void eat(){
         System.out.println("Eating");
     }
+
+    public void drink(){
+        System.out.println("Drinking");
+    }
 }
