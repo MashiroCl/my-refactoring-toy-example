@@ -11,4 +11,8 @@ public class Cat extends Animal{
     public void sleep(){
         System.out.println("Sleeping");
     }
+
+    public void laugh(){
+        System.out.println("Can cat really laugh?");
+    }
 }
