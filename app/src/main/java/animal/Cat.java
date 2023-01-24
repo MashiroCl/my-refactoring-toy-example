@@ -12,9 +12,7 @@ public class Cat extends Animal{
         System.out.println("Sleeping");
     }
 
-    public void laugh(){
-        System.out.println("Can cat really laugh?");
-    }
+
 
     public void playWith(Animal targetAnimal){
         System.out.println("Playing with "+targetAnimal.getClass().getName());
