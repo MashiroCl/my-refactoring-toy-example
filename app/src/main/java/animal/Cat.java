@@ -14,7 +14,7 @@ public class Cat extends Animal{
 
 
 
-    public void playWith(Animal targetAnimal){
+    public void playWith(Dog targetAnimal){
         System.out.println("Playing with "+targetAnimal.getClass().getName());
     }
 }
