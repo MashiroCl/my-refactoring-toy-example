@@ -15,4 +15,8 @@ public class Cat extends Animal{
     public void laugh(){
         System.out.println("Can cat really laugh?");
     }
+
+    public void playWith(Animal targetAnimal){
+        System.out.println("Playing with "+targetAnimal.getClass().getName());
+    }
 }
