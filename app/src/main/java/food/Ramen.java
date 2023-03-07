@@ -12,10 +12,7 @@ import java.util.List;
  * Delicious, expensive
  * Bring happiness when feeling hungry
  */
-public class Ramen {
+public class Ramen extends Noodle{
     public String name = "Ramen";
 
-    public List<String> getRecipe(){
-        return List.of("recipe1","recipe2");
-    }
 }
