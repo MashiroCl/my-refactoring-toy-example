@@ -6,11 +6,11 @@ package food;
  */
 
 /**
- * Rice
+ * ClonedRice
  * Delicious, eliminate hunger
- * it can grow to be Big Rice
+ * it can grow to be Big ClonedRice
  */
-public class Rice {
+public class ClonedRice {
     public String name = "rice";
 
     public void grow(){
