@@ -10,13 +10,13 @@ public class Condition {
         boolean flag = true;
         int a=3, b=2;
         int res = 0;
-        if(flag){
+        if(!flag){
+            return;
+        }
+        else{
             res = a+b;
             res = res*a;
             res = res*b;
-        }
-        else{
-            return;
         }
         System.out.println(res);
     }
