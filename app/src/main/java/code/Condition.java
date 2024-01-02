@@ -13,11 +13,11 @@ public class Condition {
         if(!flag){
             return;
         }
-        else{
-            res = a+b;
-            res = res*a;
-            res = res*b;
-        }
+        
+        res = a+b;
+        res = res*a;
+        res = res*b;
+
         System.out.println(res);
     }
 
