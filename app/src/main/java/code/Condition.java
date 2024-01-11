@@ -39,4 +39,24 @@ public class Condition {
     }
 
 
+    public void moveBlockToIf(){
+        boolean flag = true;
+        int a=3, b=2;
+        int res = 0;
+        res = a-b;
+        res = res/a;
+        res = res/b;
+        if(!flag){
+           res = a+b;
+        }
+        else{
+            res = a+b;
+            res = res*a;
+            res = res*b;
+        }
+        System.out.println(res);
+
+    }
+
+
 }
