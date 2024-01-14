@@ -63,6 +63,8 @@ public class Condition {
         int a =1,b=2;
         boolean flag = true;
         if(flag){
+
+
             System.out.println(a);
             System.out.println(b);
         }
