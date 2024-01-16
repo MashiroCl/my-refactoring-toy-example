@@ -74,7 +74,7 @@ public class Condition {
         int a=1;
         int b=2;
         if(flag1){
-            a=a+b;
+
             System.out.println("Then part of the 1st if");
         }
         else{
@@ -83,6 +83,7 @@ public class Condition {
         }
 
         if(flag2){
+            a=a+b;
             a=a*b;
             System.out.println("Then part of the 2nd if");
         }
