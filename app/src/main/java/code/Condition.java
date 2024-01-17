@@ -95,5 +95,25 @@ public class Condition {
 
     }
 
+    public void moveOutOfIf(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        int res=0;
+        if(flag){
+            res = res+a;
+            res = res+b;
+            res = res*a;
+            return;
+        }
+        else{
+            res = res-a;
+            res = res-b;
+            res = res*b;
+            return;
+        }
+
+    }
+
 
 }
