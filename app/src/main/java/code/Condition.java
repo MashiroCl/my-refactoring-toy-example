@@ -104,12 +104,13 @@ public class Condition {
 
             res = res*a;
         }else{
+            res = res+a;
+            res = res+b;
             res = res-a;
             res = res-b;
             res = res/a;
         }
-        res = res+a;
-        res = res+b;
+
         System.out.println(res);
     }
 
