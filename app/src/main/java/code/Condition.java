@@ -101,14 +101,15 @@ public class Condition {
         int b=2;
         int res=0;
         if(flag){
-            res = res+a;
-            res = res+b;
+
             res = res*a;
         }else{
             res = res-a;
             res = res-b;
             res = res/a;
         }
+        res = res+a;
+        res = res+b;
         System.out.println(res);
     }
 
