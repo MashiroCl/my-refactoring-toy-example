@@ -95,5 +95,22 @@ public class Condition {
 
     }
 
+    public void moveOutIf(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        int res=0;
+        if(flag){
+            res = res+a;
+            res = res+b;
+            res = res*a;
+        }else{
+            res = res-a;
+            res = res-b;
+            res = res/a;
+        }
+        System.out.println(res);
+    }
+
 
 }
