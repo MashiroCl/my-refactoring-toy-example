@@ -45,7 +45,7 @@ public class Condition {
         int res = 0;
 
         if(!flag){
-           res = a+b;
+            res = a+b;
             res = a-b;
             res = res/a;
             res = res/b;
@@ -95,24 +95,34 @@ public class Condition {
 
     }
 
-    public void moveOutOfIf(){
+    public void moveOutIf(){
         boolean flag = true;
         int a=1;
         int b=2;
         int res=0;
         if(flag){
+
+            res = res*a;
+        }else{
             res = res+a;
             res = res+b;
-            res = res*a;
-            return;
-        }
-        else{
             res = res-a;
             res = res-b;
-            res = res*b;
-            return;
+            res = res/a;
         }
 
+        System.out.println(res);
+    }
+
+    public void moveFromOutSideToIf(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        if(flag){
+            return;
+        }
+        a= a+b;
+        b= b-1;
     }
 
 
