@@ -114,5 +114,16 @@ public class Condition {
         System.out.println(res);
     }
 
+    public void moveFromOutSideToIf(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        if(flag){
+            return;
+        }
+        a= a+b;
+        b= b-1;
+    }
+
 
 }
