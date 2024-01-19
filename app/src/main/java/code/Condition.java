@@ -118,11 +118,11 @@ public class Condition {
         boolean flag = true;
         int a=1;
         int b=2;
-        if(flag){
-            return;
+        if(!flag){
+            a= a+b;
+            b= b-1;
         }
-        a= a+b;
-        b= b-1;
+            return;
     }
 
 
