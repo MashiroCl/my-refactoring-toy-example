@@ -125,5 +125,14 @@ public class Condition {
         b= b-1;
     }
 
+    public void extendIfElse(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        if(flag){
+            System.out.println("flag is true");
+        }
+
+    }
 
 }
