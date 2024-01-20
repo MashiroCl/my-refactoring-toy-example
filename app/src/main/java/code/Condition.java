@@ -131,6 +131,8 @@ public class Condition {
         int b=2;
         if(flag){
             System.out.println("flag is true");
+        }else{
+            System.out.println("flag is false");
         }
 
     }
