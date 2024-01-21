@@ -140,4 +140,15 @@ public class Condition {
 
     }
 
+    public boolean conditionalToBooleanReturn(){
+        int a=1;
+        int b=2;
+        if(a+b==3){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
 }
