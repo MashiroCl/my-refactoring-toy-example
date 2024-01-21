@@ -129,7 +129,7 @@ public class Condition {
         boolean flag = true;
         int a=1;
         int b=2;
-        if(flag){
+        if(b==2){
             System.out.println("flag is true");
         }else if(a==1){
             System.out.println("flag is false and a==1");
