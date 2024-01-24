@@ -184,11 +184,6 @@ public class Condition {
     public int convertIfToTernaryOperator(){
         int a = 1;
         int b = 2;
-        if(a>b){
-            return a;
-        }
-        else{
-           return b;
-        }
+        return a>b?a:b;
     }
 }
