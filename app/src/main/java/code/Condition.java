@@ -167,16 +167,16 @@ public class Condition {
         boolean flag = true;
         int a=1;
         int b=2;
-        if(flag==true){
+        if(flag!=true){
             System.out.println("flag is true");
         }
-        if(flag){
+        if(!flag){
             System.out.println("flag is true without equal symbol");
         }
-        if(b>a){
+        if(b<=a){
             System.out.println("b>a");
         }
-        if(b<a){
+        if(a<=b){
             System.out.println("b<a");
         }
 
