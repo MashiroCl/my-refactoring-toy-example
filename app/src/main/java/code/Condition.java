@@ -179,6 +179,16 @@ public class Condition {
         if(a<=b){
             System.out.println("b<a");
         }
+    }
 
+    public int convertIfToTernaryOperator(){
+        int a = 1;
+        int b = 2;
+        if(a>b){
+            return a;
+        }
+        else{
+           return b;
+        }
     }
 }
