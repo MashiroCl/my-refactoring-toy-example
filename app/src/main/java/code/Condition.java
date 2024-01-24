@@ -163,4 +163,22 @@ public class Condition {
         }
     }
 
+    public void reverseConditional(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        if(flag==true){
+            System.out.println("flag is true");
+        }
+        if(flag){
+            System.out.println("flag is true without equal symbol");
+        }
+        if(b>a){
+            System.out.println("b>a");
+        }
+        if(b<a){
+            System.out.println("b<a");
+        }
+
+    }
 }
