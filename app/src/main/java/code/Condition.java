@@ -189,9 +189,7 @@ public class Condition {
 
     public void removeRedudantElse(){
         boolean flag = true;
-        if(flag){
-            System.out.println("this is then");
-        }else{
+        if(!flag){
             System.out.println("this is else");
         }
     }
