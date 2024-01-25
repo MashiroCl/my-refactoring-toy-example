@@ -217,12 +217,11 @@ public class Condition {
         boolean flag = true;
         if(flag){
             System.out.println("a");
-        }else {
-            System.out.println("b");
         }
+        System.out.println("b");
 
-        if(flag){
-            System.out.println("c");
-        }
+
+
+        System.out.println("c");
     }
 }
