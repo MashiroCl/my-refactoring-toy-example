@@ -186,4 +186,13 @@ public class Condition {
         int b = 2;
         return a>b?a:b;
     }
+
+    public void removeRedudantElse(){
+        boolean flag = true;
+        if(flag){
+            System.out.println("this is then");
+        }else{
+            System.out.println("this is else");
+        }
+    }
 }
