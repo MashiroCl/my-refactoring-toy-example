@@ -212,4 +212,17 @@ public class Condition {
             System.out.println("I think there is a dog");
         }
     }
+
+    public void deleteConditionals(){
+        boolean flag = true;
+        if(flag){
+            System.out.println("a");
+        }else {
+            System.out.println("b");
+        }
+
+        if(flag){
+            System.out.println("c");
+        }
+    }
 }
