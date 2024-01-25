@@ -198,8 +198,6 @@ public class Condition {
         boolean flag = true;
         if(flag){
             System.out.println("this is then");
-        }else {
-            System.out.println("this is else");
         }
     }
 }
