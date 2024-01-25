@@ -1,5 +1,7 @@
 package code;
 
+import java.sql.SQLOutput;
+
 /**
  * @author mashirocl@gmail.com
  * @since 2024/01/01 18:31
@@ -198,6 +200,19 @@ public class Condition {
         boolean flag = true;
         if(flag){
             System.out.println("this is then");
+        }
+    }
+
+    public void unifyCondition(){
+        String word = "miaomiaomiao";
+        if(word.startsWith("miao")){
+            System.out.println("I think there is a cat");
+        }
+        else if(word.startsWith("bark")){
+            System.out.println("I think there is a dog");
+        }
+        else if(word.startsWith("nya")){
+            System.out.println("I think there is a cat");
         }
     }
 }
