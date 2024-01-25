@@ -205,14 +205,11 @@ public class Condition {
 
     public void unifyCondition(){
         String word = "miaomiaomiao";
-        if(word.startsWith("miao")){
+        if(word.startsWith("miao") || word.startsWith("nya")){
             System.out.println("I think there is a cat");
         }
         else if(word.startsWith("bark")){
             System.out.println("I think there is a dog");
-        }
-        else if(word.startsWith("nya")){
-            System.out.println("I think there is a cat");
         }
     }
 }
