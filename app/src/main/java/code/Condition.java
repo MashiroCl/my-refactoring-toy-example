@@ -193,4 +193,13 @@ public class Condition {
             System.out.println("this is else");
         }
     }
+
+    public void removeRedudantElse2(){
+        boolean flag = true;
+        if(flag){
+            System.out.println("this is then");
+        }else {
+            System.out.println("this is else");
+        }
+    }
 }
