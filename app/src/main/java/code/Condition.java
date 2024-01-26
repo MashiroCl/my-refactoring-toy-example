@@ -224,4 +224,21 @@ public class Condition {
 
         System.out.println("c");
     }
+
+    public void parallelCondition(){
+        boolean flag = true;
+        int a=1;
+        int b=2;
+        if(flag && a==1 && b==2){
+            System.out.println("all true");
+        }
+
+        if(flag || a==1 || b==2){
+            System.out.println("any true");
+        }
+
+        if(flag && a==1 || b==2){
+            System.out.println("some true");
+        }
+    }
 }
