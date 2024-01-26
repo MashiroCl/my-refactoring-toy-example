@@ -229,15 +229,18 @@ public class Condition {
         boolean flag = true;
         int a=1;
         int b=2;
-        if(flag && a==1 && b==2){
+        if(flag && a==1){
+            if(b==2)
             System.out.println("all true");
         }
-
-        if(flag || a==1 || b==2){
+        // logic changed
+        if(flag || b==2){
+            if(a==1)
             System.out.println("any true");
         }
 
-        if(flag && a==1 || b==2){
+        if(flag || b==2){
+            if(a==1)
             System.out.println("some true");
         }
     }
