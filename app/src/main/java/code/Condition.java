@@ -268,7 +268,7 @@ public class Condition {
 
     public void reverseCondition3(){
         Body body = new Body();
-        if(body.getB()){
+        if(!body.getC()){
             System.out.println("this is true");
         }
 
