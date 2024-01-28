@@ -255,20 +255,20 @@ public class Condition {
         }
     }
     static class Body{
-        public int b=1;
-        public int c=2;
+        public boolean b=true;
+        public boolean c=false;
 
-        public int getB(){
+        public boolean getB(){
             return b;
         }
-        public int getC(){
+        public boolean getC(){
             return c;
         }
     }
 
     public void reverseCondition3(){
         Body body = new Body();
-        if(body.getB()==1){
+        if(body.getB()){
             System.out.println("this is true");
         }
 
