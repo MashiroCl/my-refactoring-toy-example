@@ -254,4 +254,23 @@ public class Condition {
                 System.out.println("all true");
         }
     }
+    static class Body{
+        public int b=1;
+        public int c=2;
+
+        public int getB(){
+            return b;
+        }
+        public int getC(){
+            return c;
+        }
+    }
+
+    public void reverseCondition3(){
+        Body body = new Body();
+        if(body.getB()==1){
+            System.out.println("this is true");
+        }
+
+    }
 }
