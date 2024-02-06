@@ -10,7 +10,10 @@ public class Variable {
 
     public void replaceExpressionWithVariable(){
         int a = Foo.getInteger();
-        System.out.println(a);
+        if(getRandomInteger()+a<100){
+            a += 1;
+        }
+        System.out.println(Foo.getInteger());
     }
 
     public int getRandomInteger(){
