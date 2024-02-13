@@ -9,7 +9,7 @@ public class Pattern {
         int a = 1;
         int b = 2;
         int c = a+b;
-        assertTrue(a==1);
+        assertEquals(a, 1);
         System.out.println(c);
     }
 }
