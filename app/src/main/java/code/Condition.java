@@ -273,4 +273,14 @@ public class Condition {
         }
 
     }
+
+    public void reverseThenElse(){
+        boolean flag = true;
+        if(flag){
+            System.out.println("flag is true");
+        }
+        else{
+            System.out.println("flag is false");
+        }
+    }
 }
