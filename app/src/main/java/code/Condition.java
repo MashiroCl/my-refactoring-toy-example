@@ -287,7 +287,7 @@ public class Condition {
     public void changeBoundaryCondition(){
         int a=2;
         int b=3;
-        if(a<b){
+        if(a<=b){
             System.out.println("this is a change boundary condition");
         }
     }
