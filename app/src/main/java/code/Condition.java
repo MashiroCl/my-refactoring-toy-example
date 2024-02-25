@@ -283,4 +283,12 @@ public class Condition {
             System.out.println("flag is true");
         }
     }
+
+    public void changeBoundaryCondition(){
+        int a=2;
+        int b=3;
+        if(a<b){
+            System.out.println("this is a change boundary condition");
+        }
+    }
 }
