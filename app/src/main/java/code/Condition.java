@@ -294,7 +294,7 @@ public class Condition {
 
     public void reverseCondition4(){
         boolean flag = true;
-        if(flag){
+        if(!flag){
             System.out.println("flag is true");
         }
         else {
@@ -304,7 +304,7 @@ public class Condition {
 
     public void reverseCondition5(){
         Body body = new Body();
-        if(!body.getC()){
+        if(body.getC()){
             System.out.println("this is true");
         }
         else {
