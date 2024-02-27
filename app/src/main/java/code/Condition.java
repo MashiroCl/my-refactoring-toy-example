@@ -311,4 +311,27 @@ public class Condition {
             System.out.println("this is false");
         }
     }
+
+    public void changeCaller(){
+        Body body1 = new Body();
+        Body body2  = new Body();
+        if(body1.getB()){
+            System.out.println("true");
+        }
+
+    }
+
+    public static boolean getTrue(){
+        return true;
+    }
+
+    public static boolean getFalse(){
+        return false;
+    }
+
+    public void changeCaller2(){
+        if(getTrue()){
+            System.out.println("true");
+        }
+    }
 }
