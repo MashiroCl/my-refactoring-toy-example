@@ -315,7 +315,7 @@ public class Condition {
     public void changeCaller(){
         Body body1 = new Body();
         Body body2  = new Body();
-        if(body1.getB()){
+        if(body2.getB()){
             System.out.println("true");
         }
 
@@ -330,7 +330,7 @@ public class Condition {
     }
 
     public void changeCaller2(){
-        if(getTrue()){
+        if(getFalse()){
             System.out.println("true");
         }
     }
