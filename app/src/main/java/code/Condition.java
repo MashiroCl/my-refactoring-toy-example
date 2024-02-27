@@ -291,4 +291,24 @@ public class Condition {
             System.out.println("this is a change boundary condition");
         }
     }
+
+    public void reverseCondition4(){
+        boolean flag = true;
+        if(flag){
+            System.out.println("flag is true");
+        }
+        else {
+            System.out.println("flag is false");
+        }
+    }
+
+    public void reverseCondition5(){
+        Body body = new Body();
+        if(!body.getC()){
+            System.out.println("this is true");
+        }
+        else {
+            System.out.println("this is false");
+        }
+    }
 }
