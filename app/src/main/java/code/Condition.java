@@ -353,11 +353,11 @@ public class Condition {
         int a = 1;
         boolean b = false;
         int c = 2;
-        if(a==1 && b){
+        if(b){
             System.out.println("this is a");
         }
 
-        if(b || c==2){
+        if(c==2){
             System.out.println("this is b");
         }
     }
