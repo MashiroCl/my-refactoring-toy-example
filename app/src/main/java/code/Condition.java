@@ -334,4 +334,17 @@ public class Condition {
             System.out.println("true");
         }
     }
+
+    public void AddAdditionalCondition(){
+        int a = 1;
+        boolean b = false;
+        int c = 2;
+        if(a==1){
+            System.out.println("this is a");
+        }
+
+        if(b){
+            System.out.println("this is b");
+        }
+    }
 }
