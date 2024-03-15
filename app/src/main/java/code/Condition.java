@@ -364,26 +364,11 @@ public class Condition {
 
     public boolean addCurlyBrace1(){
         boolean flag = true;
-        if(flag) {
-            return false;
-        }
-        return true;
-    }
-
-    public void addCurlyBrace2(){
-        boolean flag = true;
-        if(flag) {
-            System.out.println("this is the statement");
-        }
-    }
-
-    public boolean removeCurlyBrace1(){
-        boolean flag = true;
         if(flag) return false;
         return true;
     }
 
-    public void removeCurlyBrace2(){
+    public void addCurlyBrace2(){
         boolean flag = true;
         if(flag)
             System.out.println("this is the statement");
