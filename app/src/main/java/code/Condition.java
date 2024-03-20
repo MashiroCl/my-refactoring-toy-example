@@ -375,4 +375,18 @@ public class Condition {
             System.out.println("this is the statement");
 
     }
+
+    public void lowerCondition(){
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+        if(a){
+            System.out.println("in the lower logical level");{
+                if(!b & c){
+                    System.out.println("in the higher logical level");
+                }
+            }
+        }
+
+    }
 }
