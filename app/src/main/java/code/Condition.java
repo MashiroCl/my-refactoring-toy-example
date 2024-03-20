@@ -380,9 +380,9 @@ public class Condition {
         boolean a = true;
         boolean b = false;
         boolean c = true;
-        if(a){
+        if(a & !b){
             System.out.println("in the lower logical level");{
-                if(!b & c){
+                if(c){
                     System.out.println("in the higher logical level");
                 }
             }
