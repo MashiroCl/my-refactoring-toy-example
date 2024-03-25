@@ -389,4 +389,16 @@ public class Condition {
         }
 
     }
+
+    public void changeLogicOperator(){
+        int a = 1;
+        int b = 2;
+        if(a==1 && b==2){
+            System.out.println("this is great");
+        }
+
+        if(a==1 || b==2){
+            System.out.println("this is also great");
+        }
+    }
 }
