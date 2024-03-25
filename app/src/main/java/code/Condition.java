@@ -396,9 +396,5 @@ public class Condition {
         if(a==1 || b==2){
             System.out.println("this is great");
         }
-
-        if(a==1 && b==2){
-            System.out.println("this is also great");
-        }
     }
 }
