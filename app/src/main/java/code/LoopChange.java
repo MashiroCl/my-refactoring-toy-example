@@ -4,9 +4,11 @@ public class LoopChange {
 
     public void LoopRelatedChagneDisplay(){
         int n = 5;
-
-        for(int i=0;i<n;i++){
+        int i = 0;
+        
+        while(i<n){
             System.out.println("Hello");
+            i++;
         }
 
     }
