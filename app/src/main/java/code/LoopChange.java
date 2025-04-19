@@ -15,8 +15,8 @@ public class LoopChange {
 
     public void convertForEachToFor() {
         int[] l = new int[] {1, 2, 3, 4, 5};
-        for (int i : l) {
-            System.out.println(i);
+        for (int i = 0; i < l.length; i++) {
+            System.out.println(l[i]);
         }
     }
 }
