@@ -25,7 +25,7 @@ public class LoopChange {
 
     public void modifyLoopInitializer() {
         List<String> list = new LinkedList<>();
-        for (Integer i = 0; i < list.size(); i++) {
+        for (var i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
 
